@@ -72,30 +72,6 @@ The STM32 runs the full control logic independently.
 
 ---
 
- Project Structure 
-
-📂 Core/
- ├── Inc/
- │   ├── main.h                → Header for main.c
- │   ├── shared_variables.h    → Global variables declarations
- │   ├── Control_Functions.h   → Function declarations for control algorithms
- │
- └── Src/
-     ├── main.c                → System initialization + main control loop
-     ├── shared_variables.c    → Shared global variables between modules
-     ├── Control_Functions.c   → PID + Servo control + inverse kinematics
-     ├── usbd_cdc_if.c         → Handles USB communication (auto receive callback)
-
-📂 Media/
- ├── Code_logic.png            → Diagram showing STM32 control flow
-
-
-📂 Resources/
- ├── Full_Project_Ready_to_Run.zip  → Complete project for STM32CubeIDE (ready to open and flash)
-
-📄 README.md                   → Full project explanation for GitHub
-📄 Project_Structure.md        → Project structure and file overview
-📄 .gitignore                  → Files to be ignored by GitHub
 
 \## 🧩 Code Architecture
 
@@ -156,6 +132,7 @@ Simply download the ZIP file, extract it, and open the project in STM32CubeIDE.
 \- When no ball is detected, servos return to default neutral angles.
 
 \- The system continuously runs in real time, updating every ~20 ms.
+
 
 
 
