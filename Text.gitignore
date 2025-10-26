@@ -1,0 +1,27 @@
+# STM32 build files
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+
+# CubeMX & build settings
+*.launch
+*.mxproject
+*.uvprojx
+*.uvoptx
+*.suo
+*.user
+*.dep
+*.idb
+
+# Debug folders
+/Debug/
+/Release/
+/. settings/
+/. venv/
+
+# OS files
+Thumbs.db
+.DS_Store
