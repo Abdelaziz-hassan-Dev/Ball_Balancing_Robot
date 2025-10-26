@@ -36,7 +36,7 @@ Then it calculates the required platform tilt using:
 
 
 
-!\[Control Logic](Media/Code\_logic.png)
+!\[Control Logic](Media/Code\_logic.jpg)
 
 
 
@@ -133,6 +133,7 @@ Simply download the ZIP file, extract it, and open the project in STM32CubeIDE.
 \- When no ball is detected, servos return to default neutral angles.
 
 \- The system continuously runs in real time, updating every ~20 ms.
+
 
 
 
